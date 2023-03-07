@@ -1,0 +1,35 @@
+.songs-grid {
+  background: rgb(34, 34, 34);
+  background: linear-gradient(
+    143deg,
+    rgba(34, 34, 34, 1) 6%,
+    rgba(35, 37, 33, 1) 13%,
+    rgba(0, 0, 0, 1) 39%,
+    rgba(9, 0, 0, 1) 56%,
+    rgba(57, 59, 57, 1) 89%,
+    rgba(2, 4, 2, 1) 99%
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+}
+.songs {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.song-card {
+  margin: 50px;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+.card1 {
+  background-image: url(../images/bones.jpg);
+}
